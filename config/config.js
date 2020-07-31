@@ -23,9 +23,9 @@ const config = {
         dva: {
           hmr: true,
         },
-        // dynamicImport: {
-        //   webpackChunkName: true,
-        // },
+        dynamicImport: {
+          webpackChunkName: true,
+        },
         dll: true,
         routes: {
           exclude: [
