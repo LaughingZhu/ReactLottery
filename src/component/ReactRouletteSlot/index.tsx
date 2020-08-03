@@ -306,9 +306,9 @@ export class ReactRouletteSlot extends React.Component<
 	);
 
 	BingoItem = ({ data }: { data: RouletteSlotDataItem }) => (
-		<div height={this.itemHeight * 1.5}>
+		<div>
 			<div className='content-item flex'>
-			<img src={data.img} height={this.itemHeight * 1.5} />
+			<img src={data.img}  />
 		</div>
 		<div className='content-item flex' >
 			<div className='content-item-label'>{data.label}</div>
